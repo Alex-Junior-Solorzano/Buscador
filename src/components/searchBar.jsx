@@ -21,7 +21,7 @@ const StyledInput = styled.input`
 
 const SearchBar = ({ items, onItemSelected }) => {
 
-    const [query, setQuery] = useState("mi");
+    const [query, setQuery] = useState("es");
     const [results, setResults] = useState([]);
 
     function handleOnChange(e) {
